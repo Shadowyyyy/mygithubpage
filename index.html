@@ -42,9 +42,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active"><a class="links" href="#about">About</a></li>
+            <li><a class="links" href="#projects">Projects</a></li>
+            <li><a class="links" href="#contact">Contact</a></li>
           </ul>
           <button type="button" class="btn btn-primary navbar-btn navbar-right" onclick="downloadResume()">My Resume</button>
         </div><!--/.nav-collapse -->
@@ -55,9 +55,34 @@
     <div class="container">
       <div class="jumbotron" id="about">
         <h3>Hi There!</h3>
-        <p>My name is Zhenjie(Jason) Ruan, a junior majoring in Computer Sience and Pure&Applied Mathematics at <a href="http://www.bu.edu">Boston University</a></p>
+        <p>My name is Zhenjie(Jason) Ruan, a junior majoring in Computer Sience and Pure&Applied Mathematics at <a class="links" href="http://www.bu.edu">Boston University.</a> My primary interests are Computer System and Cybersecurity. I'm familiar with Python and Java, but I also have some experience with both front-end and back-end web development. </p>
       </div>
-    
+    <!--projects-->
+    <h3>Projects</h3>
+    <div id="projects">
+       <div class="row">
+         <div class="col-md-5">
+           <div class="thumbnail">
+             <img src="assets/index.svg">
+             <div class="caption">
+               <h4>Network-Aware Container Distribution System</h4>
+               <p>This project aims to create a solution to use idle networking resource of a datacenter to distribute files inside it. The Goals of the Project are to design and implement Network Monitoring, File Transmission Control, and Network Congestion Management.</p>
+               <p><a href="https://github.com/BU-EC500-SP15/docker-dist-net" class="btn btn-primary" role="button">Document</a></p>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-5">
+           <div class="thumbnail">
+             <img src="assets/index.svg">
+             <div class="caption">
+               <h4>Concepts of Programming Language In-Class Project</h4>
+               <p>This project is for Programming Language class. In this project I impelmented parser, interpreter and compiler according to certain gramma in Python programming language. I've also implemented type checking algorithm to do some validation before compile.</p>
+               <p><a href="https://github.com/Shadowyyyy/Programming-Language" class="btn btn-primary" role="button">Source Code</a></p>
+             </div>
+           </div>
+         </div>
+       </div>
+    </div>
 
     <!-- Contact Info -->
     <h3>Contact</h3>
@@ -90,7 +115,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
