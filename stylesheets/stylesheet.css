@@ -1,5 +1,10 @@
 body {
-  min-height: 200px;
+  min-height: 1000px;
+}
+
+#about{
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
 .col-md-5{
@@ -45,20 +50,23 @@ body {
 }
 
 #projects{
-  padding-top: 19px;
+  margin-bottom: 70px;
+  padding-top: 50px;
   color: #777;
   border-top: 1px solid #e5e5e5;
   text-align: center;
 }
 
 #contact{
-  padding-top: 19px;
+  font-size: 1.25em;
+  padding-top: 50px;
   color: #777;
   border-top: 1px solid #e5e5e5;
   text-align: center;
 }
 
 .footer{
+  margin-top: 50px;
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
