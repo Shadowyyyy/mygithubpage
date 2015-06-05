@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="stylesheets/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/jquery.fancybox.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -64,7 +65,10 @@
        <div class="row">
          <div class="col-md-5">
            <div class="thumbnail">
-             <img src="assets/index.svg">
+            <a href = "https://www.youtube.com/embed/l8Oki0rS2Gk?autoplay=1&amp;rel=0&amp;autohide=1" class="video_pop_up" rel="galleryVid">
+            <img src="http://img.youtube.com/vi/l8Oki0rS2Gk/0.jpg" width="242" height="200" />
+            <span class="glyphicon glyphicon-play">&nbsp;</span>
+            </a>
              <div class="caption">
                <h4>Network-Aware Container Distribution System</h4>
                <p>This project aims to create a solution to use idle networking resource of a datacenter to distribute files inside it. The Goals of the Project are to design and implement Network Monitoring, File Transmission Control, and Network Congestion Management.</p>
@@ -74,7 +78,7 @@
          </div>
          <div class="col-md-5">
            <div class="thumbnail">
-             <img src="assets/index.svg">
+             <img width="200" height="200" src="assets/index.jpg">
              <div class="caption">
                <h4>Concepts of Programming Language In-Class Project</h4>
                <p>This project is for Programming Language class. In this project I impelmented parser, interpreter and compiler according to certain gramma in Python programming language. I've also implemented type checking algorithm to do some validation before compile.</p>
@@ -117,8 +121,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.fancybox.pack.js"></script>
+    <script src="javascripts/main.js"></script>
     <script src="javascripts/smoothscroll.js"></script>
   </body>
 </html>
