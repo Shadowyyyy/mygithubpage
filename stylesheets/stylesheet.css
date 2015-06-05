@@ -13,14 +13,14 @@ body {
   border-color: #FFF;
 }
 
-.links:hover:before{
+#links:hover:before{
   visibility:visible;
   -webkit-transform:scaleX(1);
   -ms-transform:scaleX(1);
   transform:scaleX(1)
 }
 
-.links:before{
+#links:before{
   content:"";
   position:absolute;
   width:100%;
